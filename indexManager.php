@@ -2,7 +2,7 @@
 if(isset($_GET['id'])) {
         $id = $_GET['id'];
         echo "<p>Your shortened URL ID is $id</br></br>
-                                <a id=\"link\" href=\"http://stonecipher.org/s/$id\">http://stonecipher.org/s/$id</a>  <button onclick=\"copyToClipboard(link)\">Copy</button>
+                                <a id=\"link\" href=\"redirect.php?id=$id\">redirect.php?id=$id</a>  <button onclick=\"copyToClipboard(link)\">Copy</button>
                         </p>
 ";
 } elseif (isset($_GET['invalidChars'])) {
