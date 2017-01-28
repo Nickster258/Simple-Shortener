@@ -1,5 +1,6 @@
 <html>
 <head>
+<base href="http://yourpage.domain/" />
 <meta name="viewport" content="width=device-width">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script>
